@@ -20,7 +20,7 @@ class MainWindowExt(Ui_MainWindow):
                 self.lineEditEven.setText(f"{resultchan}")
                 resultle = odd(n)
                 self.lineEditOdd.setText(f"{resultle}")
-                resultprimenumber = prime_number()
+                resultprimenumber = prime_number(n)
                 self.lineEditPrime.setText(f"{resultprimenumber}")
             except:
                 self.lineEditEven.setText("Invalid Input Data")
